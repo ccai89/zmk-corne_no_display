@@ -27,15 +27,6 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
-        as_ht: autoshift_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            label = "AUTOSHIFT_HOLD_TAP";
-            bindings = <&shift>, <&kp>;
-
-            tapping-term-ms = <190>;
-        };
-
         hml: homewrow_mods_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -57,11 +48,27 @@
         };
     };
 
+    macros {
+        Left_half: Left_half {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LG(Q))>;
+            label = "LEFT_HALF";
+        };
+
+        Right_split: Right_split {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LG(W))>;
+            label = "RIGHT_SPLIT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "Colemak";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
