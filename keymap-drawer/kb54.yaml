@@ -51,8 +51,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - LGUI
   - Func
-  - {t: '$$mdi:keyboard-space$$', h: Colemak}
-  - {t: '$$mdi:keyboard-return$$', h: Colemak}
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
+  - {t: '$$mdi:keyboard-return$$', h: Mouse}
   - {t: '$$mdi:backspace$$', h: SYMBOL&NUM}
   - $$mdi:apple-keyboard-option$$
   Func:
@@ -216,7 +216,21 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [28, 27]
+  k: (
+  l: [Colemak]
+- p: [31, 32]
+  k: )
+- p: [16, 15]
+  k: '{'
+- p: [19, 20]
+  k: '}'
+- p: [40, 39]
+  k: {t: '[', s: '{'}
+- p: [43, 44]
+  k: {t: ']', s: '}'}
