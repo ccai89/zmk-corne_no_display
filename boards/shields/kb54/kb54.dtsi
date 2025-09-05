@@ -5,16 +5,12 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <layouts/josefadamcik/sofle.dtsi>
-
-&ccai_kb54_layout {
-    transform = <&default_transform>;
-};
 
 / {
     chosen {
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
+        transform = <&default_transform>;
     };
 
     default_transform: keymap_transform_0 {
