@@ -1,0 +1,17 @@
+file_format: "1"
+id: kb54
+name: kb54
+type: shield
+url: https://github.com/josefadamcik/SofleKeyboard
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - kb54_left
+  - kb54_right
+  - kb54_left_peripheral
+  - kb54_dongle_xiao
+  - kb54_dongle_pro_micro
