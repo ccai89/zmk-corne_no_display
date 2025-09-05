@@ -1,0 +1,17 @@
+# Copyright (c) 2020 Ryan Cross
+# SPDX-License-Identifier: MIT
+
+config SHIELD_KB54_LEFT
+    def_bool $(shields_list_contains,kb54_left)
+
+config SHIELD_KB54_RIGHT
+    def_bool $(shields_list_contains,kb54_right)
+
+config SHIELD_KB54_LEFT_PERIPHERAL
+    def_bool $(shields_list_contains,kb54_left_peripheral)
+
+config SHIELD_KB54_DONGLE_XIAO
+    def_bool $(shields_list_contains,kb54_dongle_xiao)
+
+config SHIELD_KB54_DONGLE_PRO_MICRO
+    def_bool $(shields_list_contains,kb54_dongle_pro_micro)
