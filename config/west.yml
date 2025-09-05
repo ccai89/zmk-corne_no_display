@@ -5,6 +5,8 @@ manifest:
     # support nice_oled and nice_epaper
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: kb54
+      url-base: http://github.com/ccai89
   projects:
     - name: zmk
       remote: zmkfirmware

@@ -20,7 +20,9 @@
 include:
   - board: nice_nano_v2
     shield: kb54_left nice_oled
+    cmake-args: -DZMK_STUDIO=y
   - board: nice_nano_v2
     shield: kb54_right nice_oled
+    cmake-args: -DZMK_STUDIO=y
   - board: nice_nano_v2
     shield: settings_reset
