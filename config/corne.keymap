@@ -48,22 +48,6 @@
         };
     };
 
-    macros {
-        Left_half: Left_half {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LG(Q))>;
-            label = "LEFT_HALF";
-        };
-
-        Right_split: Right_split {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LG(W))>;
-            label = "RIGHT_SPLIT";
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
@@ -147,11 +131,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans     &mkp MB5   &mkp MB4   &trans    &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
-&trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans          &trans          &trans           &trans  &trans
-                           &trans     &trans     &trans    &trans  &trans          &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans            &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans     &mkp MB5   &mkp MB4   &trans    &kp K_PLAY_PAUSE  &trans          &mmv MOVE_UP    &trans           &trans  &trans
+&trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &kp C_NEXT        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &kp K_PREVIOUS    &trans          &trans          &trans           &trans  &trans
+                           &trans     &trans     &trans    &trans            &trans          &trans
             >;
         };
     };
