@@ -19,8 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left
+    shield: kb54_left
   - board: nice_nano_v2
-    shield: corne_right
+    shield: kb54_right
   - board: nice_nano_v2
     shield: settings_reset
