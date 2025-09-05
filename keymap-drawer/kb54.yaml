@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: kb54, layout_name: default_transform}
 layers:
   Colemak:
-  - PgUp
+  - $$mdi:volume-off$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -12,7 +12,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - PgDn
+  - PRINTSCREEN
   - $$mdi:keyboard-tab$$
   - Q
   - W
