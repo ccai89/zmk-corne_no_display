@@ -18,7 +18,7 @@ layers:
   - W
   - F
   - P
-  - B
+  - G
   - J
   - L
   - U
@@ -30,7 +30,7 @@ layers:
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
+  - D
   - M
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
