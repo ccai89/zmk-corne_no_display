@@ -26,7 +26,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
-  - {t: A, h: '@'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
@@ -49,7 +49,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - '%'
+  - $$mdi:apple-keyboard-command$$
   - Func
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', h: Mouse}
