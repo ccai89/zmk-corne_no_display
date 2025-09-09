@@ -73,16 +73,16 @@
             display-name = "Colemak";
 
             // --------------------------------------------------------------------------------
-            // | PG_UP |  1  |  2  |  3  |  4  |  5  |   |  6  |  7   |  8  |  9  |  0  | PG_DN |
-            // |  TAB  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP  |
-            // | CTRL  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '    |
-            // | SHFT  |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC   |
+            // | MUTE |  1  |  2  |  3  |  4  |  5  |   |  6  |  7   |  8  |  9  |  0  | PG_DN |
+            // | TAB  |  Q  |  W  |  E  |  R  |  G  |   |  Y  |  U   |  I  |  O  |  P  | BKSP  |
+            // | CTRL |  A  |  S  |  D  |  F  |  D  |   |  H  |  J   |  K  |  L  |  ;  |  '    |
+            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC   |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
 &kp PAGE_UP  &kp N1       &kp N2       &kp N3        &kp N4         &kp N5         &kp N6       &kp N7           &kp N8        &kp N9       &kp N0         &kp PAGE_DOWN
-&kp TAB      &kp Q        &kp W        &kp F         &kp P          &kp B          &kp J        &kp L            &kp U         &kp Y        &kp SEMICOLON  &kp BSPC
-&kp ESC      &hml LGUI A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &kp G          &kp M        &hmr RSHIFT N    &hmr RCTRL E  &hmr RALT I  &hmr RGUI O    &kp SQT
+&kp TAB      &kp Q        &kp W        &kp F         &kp P          &kp G          &kp J        &kp L            &kp U         &kp Y        &kp SEMICOLON  &kp BSPC
+&kp ESC      &hml LGUI A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &kp D          &kp M        &hmr RSHIFT N    &hmr RCTRL E  &hmr RALT I  &hmr RGUI O    &kp SQT
 &kp LSHFT    &kp Z        &kp X        &kp C         &kp V          &kp B          &kp K        &kp M            &kp COMMA     &kp DOT      &kp FSLH       &kp RIGHT_SHIFT
                                        &kp LGUI      &mo 1          &lt 0 SPACE    &lt 0 ENTER  &lt 2 BACKSPACE  &kp RALT
             >;
