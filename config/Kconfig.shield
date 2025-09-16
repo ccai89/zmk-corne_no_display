@@ -2,16 +2,16 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_KB54_LEFT
-    def_bool $(shields_list_contains,kb54_left)
+    def_bool $(shields_list_contains,ccaikb_left)
 
 config SHIELD_KB54_RIGHT
-    def_bool $(shields_list_contains,kb54_right)
+    def_bool $(shields_list_contains,ccaikb_right)
 
 config SHIELD_KB54_LEFT_PERIPHERAL
-    def_bool $(shields_list_contains,kb54_left_peripheral)
+    def_bool $(shields_list_contains,ccaikb_left_peripheral)
 
 config SHIELD_KB54_DONGLE_XIAO
-    def_bool $(shields_list_contains,kb54_dongle_xiao)
+    def_bool $(shields_list_contains,ccaikb_dongle_xiao)
 
 config SHIELD_KB54_DONGLE_PRO_MICRO
-    def_bool $(shields_list_contains,kb54_dongle_pro_micro)
+    def_bool $(shields_list_contains,ccaikb_dongle_pro_micro)
