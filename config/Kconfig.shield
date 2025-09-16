@@ -2,16 +2,16 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_CCAIKB_LEFT
-    def_bool $(shields_list_contains,ccaikb_left)
+    def_bool $(shields_list_contains,ccaiKB_left)
 
 config SHIELD_CCAIKB_RIGHT
-    def_bool $(shields_list_contains,ccaikb_right)
+    def_bool $(shields_list_contains,ccaiKB_right)
 
 config SHIELD_CCAIKB_LEFT_PERIPHERAL
-    def_bool $(shields_list_contains,ccaikb_left_peripheral)
+    def_bool $(shields_list_contains,ccaiKB_left_peripheral)
 
 config SHIELD_CCAIKB_DONGLE_XIAO
-    def_bool $(shields_list_contains,ccaikb_dongle_xiao)
+    def_bool $(shields_list_contains,ccaiKB_dongle_xiao)
 
 config SHIELD_CCAIKB_DONGLE_PRO_MICRO
-    def_bool $(shields_list_contains,ccaikb_dongle_pro_micro)
+    def_bool $(shields_list_contains,ccaiKB_dongle_pro_micro)

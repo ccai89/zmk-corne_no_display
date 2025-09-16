@@ -4,7 +4,7 @@
 if SHIELD_CCAIKB_LEFT || SHIELD_CCAIKB_DONGLE_XIAO || SHIELD_CCAIKB_DONGLE_PRO_MICRO
 
 config ZMK_KEYBOARD_NAME
-    default "kb54"
+    default "ccaiKB"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

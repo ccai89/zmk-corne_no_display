@@ -1,6 +1,6 @@
 file_format: "1"
-id: kb54
-name: kb54
+id: ccaiKB
+name: ccaiKB
 type: shield
 url: https://github.com/josefadamcik/SofleKeyboard
 requires: [pro_micro]
@@ -9,8 +9,8 @@ features:
   - display
   - studio
 siblings:
-  - kb54_left
-  - kb54_right
-  - kb54_left_peripheral
-  - kb54_dongle_xiao
-  - kb54_dongle_pro_micro
+  - ccaiKB_left
+  - ccaiKB_right
+  - ccaiKB_left_peripheral
+  - ccaiKB_dongle_xiao
+  - ccaiKB_dongle_pro_micro

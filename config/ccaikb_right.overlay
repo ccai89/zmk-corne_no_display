@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "kb54.dtsi"
+#include "ccaiKB.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <5>;
 };
 
 &kscan0 {
@@ -18,8 +18,4 @@
         , <&pro_micro 3 GPIO_ACTIVE_HIGH>
         , <&pro_micro 2 GPIO_ACTIVE_HIGH>
         ;
-};
-
-&right_encoder {
-    status = "okay";
 };

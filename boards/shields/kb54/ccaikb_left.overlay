@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "kb54.dtsi"
+#include "ccaiKB.dtsi"
 
 &kscan0 {
     col-gpios
@@ -13,6 +13,5 @@
         , <&pro_micro 16 GPIO_ACTIVE_HIGH>
         , <&pro_micro 15 GPIO_ACTIVE_HIGH>
         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 19 GPIO_ACTIVE_HIGH>
         ;
 };
